@@ -1,0 +1,49 @@
+{
+  "name": "react-testing-library-examples",
+  "version": "1.0.0",
+  "description": "A repo full of examples of how to use react-testing-library and test your react components",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "jest-dom": "^3.0.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "react-testing-library": "^5.5.3",
+    "react-transition-group": "^2.3.1",
+    "redux": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">1%",
+      "last 4 versions",
+      "Firefox ESR",
+      "not ie < 11"
+    ]
+  }
+}
